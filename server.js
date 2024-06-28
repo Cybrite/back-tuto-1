@@ -1,11 +1,7 @@
 import express from "express";
 const app = express();
 
-// app.get("/", (req, res) => {
-//   res.send("Hello World!");
-// });
 
-//get a list of ifve jokes
 
 app.get("/api/jokes", (req, res) => {
   const jokes = [
